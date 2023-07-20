@@ -1,6 +1,4 @@
-======================
-{{cookiecutter.project_name}}
-======================
+# {{cookiecutter.project_name}}
 
 This is a simple application for NAO (or Pepper with NAOqi 2.5).
 
@@ -8,15 +6,12 @@ It consists of a Python 3 script (`app/scripts/main.py`) wrapped in a Choregraph
 
 It requires the package with Python 3 for NAO to be installed on the robot.
 
-
-Running it on NAO
------------------
+## Running it on NAO
 
 Open the project (select `app/{{cookiecutter.project_slug}}.pml`) with Choregraphe, then you can install it normally launch it from there (or add trigger conditions etc.)
 
 
-Running it from your computer
------------------
+## Running it from your computer
 
 During development, it might be more convenient to run the script from your computer.
 
